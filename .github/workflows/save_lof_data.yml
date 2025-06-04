@@ -32,7 +32,9 @@ jobs:
       run: python save_lof_data.py
 
     - name: Backup csv to repo data directory
-      run: cp data/$(date +'%Y%m%d').csv data/
+      run: |
+        mkdir -p ../data
+        cp data/$(date +'%Y%m%d').csv ../data/
 
     - name: Upload to Releases
       uses: softprops/action-gh-release@v1

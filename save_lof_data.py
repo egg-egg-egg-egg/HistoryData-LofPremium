@@ -1,6 +1,6 @@
 import os
 import time
-from lof import lof_premium
+from lof import lof_premium,logger
 import datetime
 import chinese_calendar
 
@@ -16,7 +16,9 @@ def save_lof_data():
         print("今日非交易日，跳过数据保存")
         return
 
-    lof_premium().to_csv(f"./data/{datetime.datetime.now().strftime('%Y%m%d')}.csv", encoding='utf-8-sig')
+    df = lof_premium()
+    logger.info(df)
+    df.to_csv(f"./data/{datetime.datetime.now().strftime('%Y%m%d')}.csv", encoding='utf-8-sig')
 
 if __name__ == "__main__":
     save_lof_data()
