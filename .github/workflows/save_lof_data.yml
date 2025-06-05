@@ -2,8 +2,8 @@ name: Save LOF Premium Data
 
 on:
   schedule:
-    # 每天 UTC 时间 00:00 运行
-    - cron: '40 6 * * 1-5'
+    # 每天 UTC 时间 00:00 运行 (北京时间 08:00)
+    - cron: '0 0 * * 1-5'  # 每天 UTC 00:00（周一到周五）
   workflow_dispatch: # 手动触发
 
 jobs:
@@ -14,6 +14,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # 获取所有历史记录，用于commit
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -30,17 +32,25 @@ jobs:
 
     - name: Run save_lof_data.py
       run: python save_lof_data.py
+      id: run-script  # 添加ID用于后续步骤引用
 
-    - name: Backup csv to repo data directory
+    # 提交文件到仓库的data目录
+    - name: Commit data file
       run: |
-        mkdir -p ../data
-        cp data/$(date +'%Y%m%d').csv ../data/
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add data/*.csv
+        git commit -m "Save LOF data for $(date +'%Y-%m-%d')" || echo "No changes to commit"
+        git push
+      if: ${{ success() && steps.run-script.outcome == 'success' && env.HAS_FILE == 'true' }}
 
+    # 上传到Releases
     - name: Upload to Releases
       uses: softprops/action-gh-release@v1
-      if: success()  # 仅在脚本成功时上传
+      if: success() && steps.run-script.outcome == 'success' && env.HAS_FILE == 'true'
       with:
-        tag_name: lof-data-${{ github.run_date }}  # 按日期打标签
+        tag_name: lof-data-$(date +'%Y%m%d')  # 按日期打标签
         files: data/$(date +'%Y%m%d').csv
+        update: true  # 允许更新同一天的release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
