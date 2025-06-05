@@ -3,6 +3,7 @@ import time
 from lof import lof_premium,logger
 import datetime
 import chinese_calendar
+import logging
 
 def is_a_share_trading_day(date=None):
     """判断是否为A股交易日"""
@@ -22,6 +23,8 @@ def save_lof_data():
         return
 
     df = lof_premium()
+    handler = logger.handlers[0]
+    handler.setLevel(logging.INFO)
     logger.info(df)
     df.to_csv(f"./data/{datetime.datetime.now().strftime('%Y%m%d')}.csv", encoding='utf-8-sig')
     # 设置文件存在标志（仅GitHub Actions环境）
@@ -30,3 +33,4 @@ def save_lof_data():
             f.write('HAS_FILE=true\n')
 if __name__ == "__main__":
     save_lof_data()
+    

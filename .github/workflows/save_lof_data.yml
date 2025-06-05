@@ -52,7 +52,7 @@ jobs:
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add data/*.csv
+        git add .
         git commit -m "Save LOF data for $(date +'%Y-%m-%d')" || echo "No changes to commit"
 
     # 使用专门设计的推送action
