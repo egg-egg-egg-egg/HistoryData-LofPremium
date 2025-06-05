@@ -49,16 +49,21 @@ jobs:
 
     - name: Commit data file
       if: success() && steps.run-script.outcome == 'success' && env.HAS_FILE == 'true'
+      id: commit
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Save LOF data for $(date +'%Y-%m-%d')" || echo "No changes to commit"
+        if git diff --cached --quiet; then
+          echo "NO_CHANGES=true" >> $GITHUB_ENV
+        else
+          git commit -m "Save LOF data for $(date +'%Y-%m-%d')"
+          echo "NO_CHANGES=false" >> $GITHUB_ENV
+        fi
 
-    # 使用专门设计的推送action
     - name: Push changes
-      if: success() && steps.commit.outcome == 'success'
+      if: success() && env.NO_CHANGES == 'false'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        branch: ${{ github.ref_name }}
