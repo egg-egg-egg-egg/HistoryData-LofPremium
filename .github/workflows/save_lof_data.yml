@@ -2,7 +2,7 @@ name: Save LOF Premium Data
 
 on:
   schedule:
-    - cron: '30 14 * * 1-5' # 每天两点半运行
+    - cron: '30 6 * * 1-5'  # UTC 时间 6:30 = 北京时间 14:30
   workflow_dispatch: # 手动触发
 
 permissions:  # 添加权限设置
