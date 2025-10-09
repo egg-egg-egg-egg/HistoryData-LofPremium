@@ -1496,3 +1496,35 @@
 22  506000  ...  https://fundf10.eastmoney.com/jjfl_506000.html
 
 [23 rows x 28 columns]
+2025-10-09 14:54:17 logger:INFO:save_lof_data:28:      场外代码  ...                                        jjfl_url
+0   160324  ...  https://fundf10.eastmoney.com/jjfl_160324.html
+1   501312  ...  https://fundf10.eastmoney.com/jjfl_501312.html
+2   501225  ...  https://fundf10.eastmoney.com/jjfl_501225.html
+3   161217  ...  https://fundf10.eastmoney.com/jjfl_161217.html
+4   160221  ...  https://fundf10.eastmoney.com/jjfl_160221.html
+5   165520  ...  https://fundf10.eastmoney.com/jjfl_165520.html
+6   160216  ...  https://fundf10.eastmoney.com/jjfl_160216.html
+7   160726  ...  https://fundf10.eastmoney.com/jjfl_160726.html
+8   501038  ...  https://fundf10.eastmoney.com/jjfl_501038.html
+9   161912  ...  https://fundf10.eastmoney.com/jjfl_161912.html
+10  166024  ...  https://fundf10.eastmoney.com/jjfl_166024.html
+11  161132  ...  https://fundf10.eastmoney.com/jjfl_161132.html
+12  166027  ...  https://fundf10.eastmoney.com/jjfl_166027.html
+13  161040  ...  https://fundf10.eastmoney.com/jjfl_161040.html
+14  501065  ...  https://fundf10.eastmoney.com/jjfl_501065.html
+15  166025  ...  https://fundf10.eastmoney.com/jjfl_166025.html
+16  160143  ...  https://fundf10.eastmoney.com/jjfl_160143.html
+17  160926  ...  https://fundf10.eastmoney.com/jjfl_160926.html
+18  501046  ...  https://fundf10.eastmoney.com/jjfl_501046.html
+19  160529  ...  https://fundf10.eastmoney.com/jjfl_160529.html
+20  506002  ...  https://fundf10.eastmoney.com/jjfl_506002.html
+21  161914  ...  https://fundf10.eastmoney.com/jjfl_161914.html
+22  160325  ...  https://fundf10.eastmoney.com/jjfl_160325.html
+23  162720  ...  https://fundf10.eastmoney.com/jjfl_162720.html
+24  506006  ...  https://fundf10.eastmoney.com/jjfl_506006.html
+25  506001  ...  https://fundf10.eastmoney.com/jjfl_506001.html
+26  506005  ...  https://fundf10.eastmoney.com/jjfl_506005.html
+27  506000  ...  https://fundf10.eastmoney.com/jjfl_506000.html
+28  506003  ...  https://fundf10.eastmoney.com/jjfl_506003.html
+
+[29 rows x 28 columns]
