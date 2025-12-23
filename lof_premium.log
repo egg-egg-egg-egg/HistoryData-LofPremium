@@ -2621,3 +2621,40 @@
 27  506000  ...  https://fundf10.eastmoney.com/jjfl_506000.html
 
 [28 rows x 28 columns]
+2025-12-23 15:00:40 logger:INFO:save_lof_data:28:      场外代码  ...                                        jjfl_url
+0   161226  ...  https://fundf10.eastmoney.com/jjfl_161226.html
+1   161225  ...  https://fundf10.eastmoney.com/jjfl_161225.html
+2   160216  ...  https://fundf10.eastmoney.com/jjfl_160216.html
+3   164701  ...  https://fundf10.eastmoney.com/jjfl_164701.html
+4   161116  ...  https://fundf10.eastmoney.com/jjfl_161116.html
+5   160719  ...  https://fundf10.eastmoney.com/jjfl_160719.html
+6   161031  ...  https://fundf10.eastmoney.com/jjfl_161031.html
+7   161128  ...  https://fundf10.eastmoney.com/jjfl_161128.html
+8   165513  ...  https://fundf10.eastmoney.com/jjfl_165513.html
+9   166024  ...  https://fundf10.eastmoney.com/jjfl_166024.html
+10  161912  ...  https://fundf10.eastmoney.com/jjfl_161912.html
+11  501062  ...  https://fundf10.eastmoney.com/jjfl_501062.html
+12  501088  ...  https://fundf10.eastmoney.com/jjfl_501088.html
+13  160529  ...  https://fundf10.eastmoney.com/jjfl_160529.html
+14  166027  ...  https://fundf10.eastmoney.com/jjfl_166027.html
+15  501046  ...  https://fundf10.eastmoney.com/jjfl_501046.html
+16  160726  ...  https://fundf10.eastmoney.com/jjfl_160726.html
+17  160325  ...  https://fundf10.eastmoney.com/jjfl_160325.html
+18  501065  ...  https://fundf10.eastmoney.com/jjfl_501065.html
+19  501070  ...  https://fundf10.eastmoney.com/jjfl_501070.html
+20  160926  ...  https://fundf10.eastmoney.com/jjfl_160926.html
+21  161040  ...  https://fundf10.eastmoney.com/jjfl_161040.html
+22  161914  ...  https://fundf10.eastmoney.com/jjfl_161914.html
+23  501038  ...  https://fundf10.eastmoney.com/jjfl_501038.html
+24  160143  ...  https://fundf10.eastmoney.com/jjfl_160143.html
+25  162720  ...  https://fundf10.eastmoney.com/jjfl_162720.html
+26  506008  ...  https://fundf10.eastmoney.com/jjfl_506008.html
+27  506002  ...  https://fundf10.eastmoney.com/jjfl_506002.html
+28  506003  ...  https://fundf10.eastmoney.com/jjfl_506003.html
+29  506001  ...  https://fundf10.eastmoney.com/jjfl_506001.html
+30  161132  ...  https://fundf10.eastmoney.com/jjfl_161132.html
+31  506005  ...  https://fundf10.eastmoney.com/jjfl_506005.html
+32  506006  ...  https://fundf10.eastmoney.com/jjfl_506006.html
+33  506000  ...  https://fundf10.eastmoney.com/jjfl_506000.html
+
+[34 rows x 28 columns]
