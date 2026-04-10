@@ -3068,3 +3068,22 @@
 43  162411  ...  https://fundf10.eastmoney.com/jjfl_162411.html
 
 [44 rows x 28 columns]
+2026-04-10 16:10:49 logger:INFO:save_lof_data:28:      场外代码  ...                                        jjfl_url
+0   161226  ...  https://fundf10.eastmoney.com/jjfl_161226.html
+1   161129  ...  https://fundf10.eastmoney.com/jjfl_161129.html
+2   501018  ...  https://fundf10.eastmoney.com/jjfl_501018.html
+3   160723  ...  https://fundf10.eastmoney.com/jjfl_160723.html
+4   160416  ...  https://fundf10.eastmoney.com/jjfl_160416.html
+5   501225  ...  https://fundf10.eastmoney.com/jjfl_501225.html
+6   162719  ...  https://fundf10.eastmoney.com/jjfl_162719.html
+7   506003  ...  https://fundf10.eastmoney.com/jjfl_506003.html
+8   506006  ...  https://fundf10.eastmoney.com/jjfl_506006.html
+9   166025  ...  https://fundf10.eastmoney.com/jjfl_166025.html
+10  506001  ...  https://fundf10.eastmoney.com/jjfl_506001.html
+11  506000  ...  https://fundf10.eastmoney.com/jjfl_506000.html
+12  501065  ...  https://fundf10.eastmoney.com/jjfl_501065.html
+13  501070  ...  https://fundf10.eastmoney.com/jjfl_501070.html
+14  501088  ...  https://fundf10.eastmoney.com/jjfl_501088.html
+15  506008  ...  https://fundf10.eastmoney.com/jjfl_506008.html
+
+[16 rows x 28 columns]
