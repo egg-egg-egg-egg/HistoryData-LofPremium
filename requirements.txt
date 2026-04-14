@@ -1,1 +1,1 @@
-lof-fund
+lof-fund==1.1.4
