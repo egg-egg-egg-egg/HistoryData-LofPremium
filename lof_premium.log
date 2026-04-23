@@ -3241,3 +3241,36 @@
 25  506008  ...  https://fundf10.eastmoney.com/jjfl_506008.html
 
 [26 rows x 28 columns]
+2026-04-23 16:25:09 logger:WARNING:wrapper:25:[重试 1/3] SSLError: HTTPSConnectionPool(host='fundf10.eastmoney.com', port=443): Max retries exceeded with url: /jjfl_160723.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))，10s 后重试...
+2026-04-23 16:26:19 logger:INFO:save_lof_data:52:      场外代码  ...                                        jjfl_url
+0   161226  ...  https://fundf10.eastmoney.com/jjfl_161226.html
+1   161129  ...  https://fundf10.eastmoney.com/jjfl_161129.html
+2   501225  ...  https://fundf10.eastmoney.com/jjfl_501225.html
+3   501018  ...  https://fundf10.eastmoney.com/jjfl_501018.html
+4   160723  ...  https://fundf10.eastmoney.com/jjfl_160723.html
+5   160416  ...  https://fundf10.eastmoney.com/jjfl_160416.html
+6   501205  ...  https://fundf10.eastmoney.com/jjfl_501205.html
+7   166107  ...  https://fundf10.eastmoney.com/jjfl_166107.html
+8   501038  ...  https://fundf10.eastmoney.com/jjfl_501038.html
+9   160325  ...  https://fundf10.eastmoney.com/jjfl_160325.html
+10  501062  ...  https://fundf10.eastmoney.com/jjfl_501062.html
+11  166025  ...  https://fundf10.eastmoney.com/jjfl_166025.html
+12  161837  ...  https://fundf10.eastmoney.com/jjfl_161837.html
+13  501065  ...  https://fundf10.eastmoney.com/jjfl_501065.html
+14  161914  ...  https://fundf10.eastmoney.com/jjfl_161914.html
+15  160926  ...  https://fundf10.eastmoney.com/jjfl_160926.html
+16  160726  ...  https://fundf10.eastmoney.com/jjfl_160726.html
+17  160529  ...  https://fundf10.eastmoney.com/jjfl_160529.html
+18  506002  ...  https://fundf10.eastmoney.com/jjfl_506002.html
+19  160143  ...  https://fundf10.eastmoney.com/jjfl_160143.html
+20  506005  ...  https://fundf10.eastmoney.com/jjfl_506005.html
+21  506001  ...  https://fundf10.eastmoney.com/jjfl_506001.html
+22  501088  ...  https://fundf10.eastmoney.com/jjfl_501088.html
+23  506003  ...  https://fundf10.eastmoney.com/jjfl_506003.html
+24  501070  ...  https://fundf10.eastmoney.com/jjfl_501070.html
+25  506006  ...  https://fundf10.eastmoney.com/jjfl_506006.html
+26  506000  ...  https://fundf10.eastmoney.com/jjfl_506000.html
+27  162720  ...  https://fundf10.eastmoney.com/jjfl_162720.html
+28  506008  ...  https://fundf10.eastmoney.com/jjfl_506008.html
+
+[29 rows x 28 columns]
