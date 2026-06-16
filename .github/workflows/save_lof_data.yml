@@ -1,9 +1,8 @@
 name: Save LOF Premium Data
 
+# 已迁移至本地定时采集 (OpenClaw cron, agent-ca7a63c8)
+# 保留 workflow_dispatch 用于手动触发
 on:
-  schedule:
-    # 每周一到周五 14:40 北京时间 (= UTC 06:40)
-    - cron: '40 6 * * 1-5'
   workflow_dispatch:
 
 permissions:
